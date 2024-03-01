@@ -16,7 +16,8 @@ Linux : Debian7.6
 画像ファイル形式:bmp
 
 ## 実行  
-①開発マシンで「make」コマンド  
-②開発マシンで「make install」コマンド  
-③LCD画面に表示したいbmpファイル(01.bmp,02.bmp,03.bmp, 04.bmp, 05.bmp)をターゲットボードのLinuxにコピー  
-②ターゲットボードで「./bmptest」コマンド 
+1.開発マシンで「make」コマンド  
+2.開発マシンで「make install」コマンド  
+3.LCD画面に表示したいbmpファイル(01.bmp,02.bmp,03.bmp, 04.bmp, 05.bmp)をターゲットボードのLinuxにコピー  
+※bmpファイルは画像サイズ480×272以下、非圧縮、1ピクセルあたり24bit  
+4.ターゲットボードで「./bmptest」コマンド 
