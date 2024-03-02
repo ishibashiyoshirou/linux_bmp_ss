@@ -60,7 +60,7 @@ int bmp2RGB565(FILE * fpbmp, unsigned short *pfb, int max_x, int max_y) {
 	/*左上の座標*/
 	x0 = (max_x - bmp.ih.biWidth) / 2;
 	y0 = (max_y - bmp.ih.biHeight) / 2;
-	/*右下の座標*
+	/*右下の座標*/
 	x1 = x0 + bmp.ih.biWidth;
 	y1 = y0 + bmp.ih.biHeight;
 	padding = bmp.ih.biWidth % 4; //1ライン毎に読み飛ばすバイト数
