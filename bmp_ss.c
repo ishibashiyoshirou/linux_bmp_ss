@@ -44,7 +44,7 @@ int main(int argc,char *argv[])
 	/*LCD画面を黒に*/
 	memset(pfb, 0, SCREENSIZE);
 
-	/*5秒ごとに画像をLCDに出力*/
+	/*画像を5秒毎に切り替えてLCDに出力*/
 	while(1){
 		load_bmp(bmpfile[bmp_n],pfb,SCREENWIDTH,SCREENHEIGHT);
 		bmp_n++;
