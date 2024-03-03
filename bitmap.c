@@ -78,7 +78,8 @@ int bmp2RGB565(FILE * fpbmp, unsigned short *pfb, int max_x, int max_y) {
 		}
 		c += padding; //読み飛ばし
 	}
-	free(bmpdata); //mallocで確保したメモリを解放
+	 /*mallocで確保したメモリを解放*/
+	free(bmpdata);
 	return 0;
 }
 
