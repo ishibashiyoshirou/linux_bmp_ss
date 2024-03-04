@@ -20,5 +20,5 @@ Linux : Debian7.6
 2.開発マシンで「make install」コマンド  
 3.LCD画面に表示したいbmpファイル(01.bmp,02.bmp,03.bmp, 04.bmp, 05.bmp)をターゲットボードのLinuxにコピー  
 ※bmpファイルは画像サイズ480×272以下、非圧縮、1ピクセルあたり24bit  
-4.ターゲットボードで「./bmptest」コマンド 
+4.ターゲットボードで「./bmptest」コマンド  
 5.終了はCTRL+C  
